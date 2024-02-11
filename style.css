@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    background-color: rgb(248, 235, 237);
+    height: 80vh;
+    padding: 0 9rem;
+    
+}
+.hero_img, .hero_content{
+    flex: 1;
+}
+
+.hero_content{
+    align-self: center;
+}
+.hero_content h1{
+    font-size: 4rem;
+}
+.hero_img{
+    align-self: flex-end;
+    
+}
+.hero_img img{
+    
+    height: 75vh;
+
+}
+p{
+    font-size: 0.7rem;
+    line-height: 18px;
+    color: rgba(79, 78, 78, 0.502);
+    padding-top: 1rem;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(234, 60, 124);
+    cursor: pointer;
+}
+.feature{
+    width: 100%;
+    height: 200px;
+    
+}
+.feature_content{
+    margin-top: 4rem;
+}
+.feature_img{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    width: 350px;
+    height: 55vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.img1{
+    background-color: rgba(255, 192, 203,0.4);
+}
+.img2{
+    background-color: rgba(192, 234, 255, 0.4);
+}
+.img3{
+    background-color: rgba(166, 246, 185, 0.4);
+}
+.img_text{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+}
+.delivery{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 2rem 2rem 2rem 0;
+    background-color: rgba(255, 192, 203,0.2);
+    margin: 4rem 12.5rem;
+}
+.delivery p{
+    font-size: 1rem;
+    color: rgb(102, 101, 101);
+}
+.delivery img{
+    padding-left: 8rem;
+}
+.feature p,h3{
+    text-align: center;
+}
+
+.hot_deal{
+    display: flex;
+    padding: 3rem;
+    background-color: rgba(255, 192, 203,0.2);
+    margin-top: 2rem;
+    align-items: center;
+}
+.hot_deal_img{
+    padding-left: 10%;
+}
+.hot_deal_content{
+    padding-left: 20%;
+}
+.contentH{
+    font-size: 2rem;
+}
+.hot_deal_content h2 span{
+    color: rgba(255, 0, 0, 0.7);
+}
+.contentP{
+    font-size: 0.8rem;
+    color: rgba(102, 101, 101, 0.7);
+}
+.htbtn{
+    margin-left: 33%;
+}
+
+.instagram_content{
+    margin-top: 4rem;
+}
+.instagram_content h2{
+    text-align: center;
+}
+.instagram_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.instagram_img img{
+    padding-left: 1rem;
+}
+.instagram_get{
+    background-image: url(Assets/Rectangle\ 9.png);
+
+    margin: 4rem 12rem;
+    text-align: center;
+    padding: 6rem;
+}
+.instagram_get input{
+    width: 30%;
+    height: 2rem;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+.get_btn{
+    margin-left: 0.5rem;
+}
+
+.email{
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    text-align: center;
+    padding: 8rem 0;
+}
+.footer span{
+    color: rgb(249, 110, 133);
+}
+.footer p{
+    color: rgb(195, 190, 190);
+    font-size: 0.8rem;
+}
+#last_p{
+    color: rgb(86, 82, 82);
+}
